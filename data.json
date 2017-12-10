@@ -1,5 +1,5 @@
 {
-	"name":"Data Science",
+	"name":"Data Science Process",
 	"children":
 	[
 		{
@@ -15,229 +15,232 @@
 							"children":
 							[
 								{
-									"name": "How do I clean and separate my data?"
-								},
-								{
-									"name": "FEATURE EXTRACTION",
+									"name": "How do I clean and separate my data?",
 									"children":
 									[
 										{
-											"name":"See the Featuring Enginerring and feature selection"
-										}
-									]
-								},
-								{
-									"name": "NORMALIZATION & TRANSFORMATION",
-									"children":
-									[
-										{
-											"name":"How do I reconcile duplication representation in the data?",
+											"name": "FEATURE EXTRACTION",
 											"children":
 											[
 												{
-													"name":"If you suspect duplicate data elements, start with:",
-													"children":
-													[
-														{
-															"name":"Deduplication"
-														}
-													]
-												},
-												{
-													"name":"If you want your data to fall within a specified range, start with:",
-													"children":
-													[
-														{
-															"name":"Normalization"
-														}
-													]
-												},
-												{
-													"name":"If your data is stored in a binary format, start with:",
-													"children":
-													[
-														{
-															"name":"Format Conversion"
-														}
-													]
-												},
-												{
-													"name":"IF you are operating in frequency space, start with:",
-													"children":
-													[
-														{
-															"name":"Fast Fourier Transform(FFT)"
-														},
-														{
-															"name":"Discrete wavelet transform"
-														}
-													]
-												},
-												{
-													"name":"If you are operating in Euclidian space, start with:",
-													"children":
-													[
-														{
-															"name":"Coordinate transaform"
-														}
-													]
+													"name":"See the Featuring Enginerring and feature selection"
 												}
 											]
-										}
-									]
-								},
-								{
-									"name":"DIMENSIONALITY REDUCTION",
-									"children":
-									[
+										},
 										{
-											"name":"How do I reduce the number of dimensions in my data?",
-											"childre":
-											[
-												{
-													"name":"If you need to determine whether there is multi-dimensional correlation, start with:",
-													"children":
-													[
-														{
-															"name":"PCA and other factor analysis"
-														}
-													]
-												},
-												{
-													"name":"If you can represent individual observations by membership in a group, start with:",
-													"children":
-													[
-														{
-															"name":"K-means clustering"
-														},
-														{
-															"name":"Canopy clustering"
-														}
-													]
-												},
-												{
-													"name":"If you have unstructured text data, start with:",
-													"children":
-													[
-														{
-															"name":"Term Frequency/Inverse Document Frequency(TF IDF)"
-														}
-													]
-												},
-												{
-													"name":"If you have a variable number of features but your algorithm requires a fixed number, start with:",
-													"children":
-													[
-														{
-															"name":"Feature hashing"
-														}
-													]
-												},
-												{
-													"name":"If you are not sure which features are the most important, start with:",
-													"children":
-													[
-														{
-															"name":"Wrapper methods"
-														},
-														{
-															"name":"Sensitivity analysis"
-														}
-													]
-												},
-												{
-													"name":"If you need to facilitate understanding of the probability distribution of the space, start with:",
-													"children":
-													[
-														{
-															"name":"Self organizing maps"
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"name": "IMPUTATION",
-									"children":
-									[
-										{
-											"name":"How do I fill in missing values in my data?",
+											"name": "NORMALIZATION & TRANSFORMATION",
 											"children":
 											[
 												{
-													"name":"If you want to generate values from other observations in your dataset, start with:",
+													"name":"How do I reconcile duplication representation in the data?",
 													"children":
 													[
 														{
-															"name":"Random sampling"
+															"name":"If you suspect duplicate data elements, start with:",
+															"children":
+															[
+																{
+																	"name":"Deduplication"
+																}
+															]
 														},
 														{
-															"name":"Markov Chain Monte Carlo [MC]"
-														}
-													]
-												},
-												{
-													"name":"If you want to generate values without using other observations in your dataset, start with:",
-													"children":
-													[
-														{
-															"name":"Mean"
+															"name":"If you want your data to fall within a specified range, start with:",
+															"children":
+															[
+																{
+																	"name":"Normalization"
+																}
+															]
 														},
 														{
-															"name":"Statistical distribution"
+															"name":"If your data is stored in a binary format, start with:",
+															"children":
+															[
+																{
+																	"name":"Format Conversion"
+																}
+															]
 														},
 														{
-															"name":"Regression models"
+															"name":"IF you are operating in frequency space, start with:",
+															"children":
+															[
+																{
+																	"name":"Fast Fourier Transform(FFT)"
+																},
+																{
+																	"name":"Discrete wavelet transform"
+																}
+															]
+														},
+														{
+															"name":"If you are operating in Euclidian space, start with:",
+															"children":
+															[
+																{
+																	"name":"Coordinate transaform"
+																}
+															]
 														}
 													]
 												}
 											]
-										}
-									]
-								},
-								{
-									"name":"FILTERING",
-									"children":
-									[
+										},
 										{
-											"name":"How do I identify data based on its absoluate or relative values?",
+											"name":"DIMENSIONALITY REDUCTION",
 											"children":
 											[
 												{
-													"name":"If you want to add or remove data based on its value, start with:",
-													"children":
+													"name":"How do I reduce the number of dimensions in my data?",
+													"childre":
 													[
 														{
-															"name":"Relational algeria projection and selection"
+															"name":"If you need to determine whether there is multi-dimensional correlation, start with:",
+															"children":
+															[
+																{
+																	"name":"PCA and other factor analysis"
+																}
+															]
+														},
+														{
+															"name":"If you can represent individual observations by membership in a group, start with:",
+															"children":
+															[
+																{
+																	"name":"K-means clustering"
+																},
+																{
+																	"name":"Canopy clustering"
+																}
+															]
+														},
+														{
+															"name":"If you have unstructured text data, start with:",
+															"children":
+															[
+																{
+																	"name":"Term Frequency/Inverse Document Frequency(TF IDF)"
+																}
+															]
+														},
+														{
+															"name":"If you have a variable number of features but your algorithm requires a fixed number, start with:",
+															"children":
+															[
+																{
+																	"name":"Feature hashing"
+																}
+															]
+														},
+														{
+															"name":"If you are not sure which features are the most important, start with:",
+															"children":
+															[
+																{
+																	"name":"Wrapper methods"
+																},
+																{
+																	"name":"Sensitivity analysis"
+																}
+															]
+														},
+														{
+															"name":"If you need to facilitate understanding of the probability distribution of the space, start with:",
+															"children":
+															[
+																{
+																	"name":"Self organizing maps"
+																}
+															]
 														}
 													]
-												},
+												}
+											]
+										},
+										{
+											"name": "IMPUTATION",
+											"children":
+											[
 												{
-													"name":"If early results are uniformative and duplicative, start with:",
+													"name":"How do I fill in missing values in my data?",
 													"children":
 													[
 														{
-															"name":"Outlier removal"
+															"name":"If you want to generate values from other observations in your dataset, start with:",
+															"children":
+															[
+																{
+																	"name":"Random sampling"
+																},
+																{
+																	"name":"Markov Chain Monte Carlo [MC]"
+																}
+															]
 														},
 														{
-															"name":"Exponential smoothing"
+															"name":"If you want to generate values without using other observations in your dataset, start with:",
+															"children":
+															[
+																{
+																	"name":"Mean"
+																},
+																{
+																	"name":"Statistical distribution"
+																},
+																{
+																	"name":"Regression models"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name":"FILTERING",
+											"children":
+											[
+												{
+													"name":"How do I identify data based on its absoluate or relative values?",
+													"children":
+													[
+														{
+															"name":"If you want to add or remove data based on its value, start with:",
+															"children":
+															[
+																{
+																	"name":"Relational algeria projection and selection"
+																}
+															]
 														},
 														{
-															"name":"Gaussian filter"
-														},
-														{
-															"name":"Median filter"
+															"name":"If early results are uniformative and duplicative, start with:",
+															"children":
+															[
+																{
+																	"name":"Outlier removal"
+																},
+																{
+																	"name":"Exponential smoothing"
+																},
+																{
+																	"name":"Gaussian filter"
+																},
+																{
+																	"name":"Median filter"
+																}
+															]
 														}
 													]
 												}
 											]
 										}
+							]
+						}
 									]
-								}
-					]
-				},
+								},
 
 						{
 							"name":"AGGREGATION",
@@ -872,7 +875,7 @@
 										}
 					]
 				}
-				
+
 			]
 		}
 	]
