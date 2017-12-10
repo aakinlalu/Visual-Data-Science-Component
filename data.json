@@ -1,0 +1,879 @@
+{
+	"name":"Data Science",
+	"children":
+	[
+		{
+			"name": "DESCRIBE",
+			"children":
+			[
+				{
+					"name": "How do I develop an understanding of the content of my data?",
+					"children":
+					[
+						{
+							"name":"PROCESSING",
+							"children":
+							[
+								{
+									"name": "How do I clean and separate my data?"
+								},
+								{
+									"name": "FEATURE EXTRACTION",
+									"children":
+									[
+										{
+											"name":"See the Featuring Enginerring and feature selection"
+										}
+									]
+								},
+								{
+									"name": "NORMALIZATION & TRANSFORMATION",
+									"children":
+									[
+										{
+											"name":"How do I reconcile duplication representation in the data?",
+											"children":
+											[
+												{
+													"name":"If you suspect duplicate data elements, start with:",
+													"children":
+													[
+														{
+															"name":"Deduplication"
+														}
+													]
+												},
+												{
+													"name":"If you want your data to fall within a specified range, start with:",
+													"children":
+													[
+														{
+															"name":"Normalization"
+														}
+													]
+												},
+												{
+													"name":"If your data is stored in a binary format, start with:",
+													"children":
+													[
+														{
+															"name":"Format Conversion"
+														}
+													]
+												},
+												{
+													"name":"IF you are operating in frequency space, start with:",
+													"children":
+													[
+														{
+															"name":"Fast Fourier Transform(FFT)"
+														},
+														{
+															"name":"Discrete wavelet transform"
+														}
+													]
+												},
+												{
+													"name":"If you are operating in Euclidian space, start with:",
+													"children":
+													[
+														{
+															"name":"Coordinate transaform"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name":"DIMENSIONALITY REDUCTION",
+									"children":
+									[
+										{
+											"name":"How do I reduce the number of dimensions in my data?",
+											"childre":
+											[
+												{
+													"name":"If you need to determine whether there is multi-dimensional correlation, start with:",
+													"children":
+													[
+														{
+															"name":"PCA and other factor analysis"
+														}
+													]
+												},
+												{
+													"name":"If you can represent individual observations by membership in a group, start with:",
+													"children":
+													[
+														{
+															"name":"K-means clustering"
+														},
+														{
+															"name":"Canopy clustering"
+														}
+													]
+												},
+												{
+													"name":"If you have unstructured text data, start with:",
+													"children":
+													[
+														{
+															"name":"Term Frequency/Inverse Document Frequency(TF IDF)"
+														}
+													]
+												},
+												{
+													"name":"If you have a variable number of features but your algorithm requires a fixed number, start with:",
+													"children":
+													[
+														{
+															"name":"Feature hashing"
+														}
+													]
+												},
+												{
+													"name":"If you are not sure which features are the most important, start with:",
+													"children":
+													[
+														{
+															"name":"Wrapper methods"
+														},
+														{
+															"name":"Sensitivity analysis"
+														}
+													]
+												},
+												{
+													"name":"If you need to facilitate understanding of the probability distribution of the space, start with:",
+													"children":
+													[
+														{
+															"name":"Self organizing maps"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "IMPUTATION",
+									"children":
+									[
+										{
+											"name":"How do I fill in missing values in my data?",
+											"children":
+											[
+												{
+													"name":"If you want to generate values from other observations in your dataset, start with:",
+													"children":
+													[
+														{
+															"name":"Random sampling"
+														},
+														{
+															"name":"Markov Chain Monte Carlo [MC]"
+														}
+													]
+												},
+												{
+													"name":"If you want to generate values without using other observations in your dataset, start with:",
+													"children":
+													[
+														{
+															"name":"Mean"
+														},
+														{
+															"name":"Statistical distribution"
+														},
+														{
+															"name":"Regression models"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name":"FILTERING",
+									"children":
+									[
+										{
+											"name":"How do I identify data based on its absoluate or relative values?",
+											"children":
+											[
+												{
+													"name":"If you want to add or remove data based on its value, start with:",
+													"children":
+													[
+														{
+															"name":"Relational algeria projection and selection"
+														}
+													]
+												},
+												{
+													"name":"If early results are uniformative and duplicative, start with:",
+													"children":
+													[
+														{
+															"name":"Outlier removal"
+														},
+														{
+															"name":"Exponential smoothing"
+														},
+														{
+															"name":"Gaussian filter"
+														},
+														{
+															"name":"Median filter"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+					]
+				},
+
+						{
+							"name":"AGGREGATION",
+							"children":
+							[
+								{
+									"name":"How do I collect and summarize my data?",
+									"children":
+									[
+										{
+											"name":"If you are unfamiliar with the dataset, start with basic statistics:",
+											"children":
+											[
+												{
+													"name":"Count"
+												},
+												{
+													"name":"Mean"
+												},
+												{
+													"name":"Standard deviation"
+												},
+												{
+													"name":"Range"
+												},
+												{
+													"name":"Box plots"
+												},
+												{
+													"name":"Scatter plots"
+												}
+											]
+										},
+										{
+											"name":"If your approach assumes the data follows a distribution, start with:",
+											"children":
+											[
+												{
+													"name":"Distribution fitting"
+												}
+											]
+										},
+										{
+											"name":"If you want to understand all the information available on an entity, start with:",
+											"children":
+											[
+												{
+													"name":"Baseball card aggregation"
+												}
+											]
+										}
+									]
+								}
+							]
+
+						},
+						{
+							"name":"ENRICHMENT",
+							"children":
+							[
+								{
+									"name":"How do I add new information to my data?",
+									"children":
+									[
+										{
+											"name":"If you need to keep track of source information or other user-defined parameters, start with:",
+											"children":
+											[
+												{
+													"name":"Annotation"
+												}
+											]
+										},
+										{
+											"name":"If you often process certain data fields together or use one field to compute the value of another, start with:",
+											"children":
+											[
+												{
+													"name":"Relational algebra rename"
+												},
+												{
+													"name":"Feature addition (e.g. Geography, Technology, Weather)"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+
+					]
+
+				}
+					]
+				},
+
+		{
+			"name":"DISCOVER",
+			"children":
+			[
+				{
+					"name":"What are the key relationship in the data?",
+					"children":
+					[
+						{
+							"name":"CLUSTERING",
+							"children":
+							[
+								{
+									"name":"How do I segment the data to find natural groupings?",
+									"children":
+									[
+										{
+											"name":"If you want an ordered set of clusters with variable precision, start with:",
+											"children":
+											[
+												{
+													"name":"Hierarchical"
+												}
+											]
+										},
+										{
+											"name":"If you have a known number of clusters, start with:",
+											"children":
+											[
+												{
+													"name":"X-means"
+												},
+												{
+													"name":"Canopy"
+												},
+			                  {
+													"name":"Apriori"
+												}
+											]
+										},
+										{
+											"name":"If you have an known number of clusters, start with:",
+											"children":
+											[
+												{
+													"name":"K-means"
+												}
+											]
+										},
+										{
+											"name":"If you have text data, start with:",
+											"children":
+											[
+												{
+													"name":"Topic modelling"
+												}
+											]
+										},
+										{
+											"name":"if you have non-elliptical clusters, start with:",
+											"children":
+											[
+												{
+													"name":"Fractal"
+												},
+												{
+													"name":"DB Scan"
+												}
+											]
+										},
+										{
+											"name":"If you want soft membership in the clusters, start with",
+											"children":
+											[
+												{
+													"name":"Gaussian mixture models"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name":"REGRESSION",
+							"children":
+							[
+								{
+									"name":"How do I determine which variables may be important?",
+									"children":
+									[
+										{
+											"name":"If your data has unknown structure, start with:",
+											"children":
+											[
+												{
+													"name":"Tree-based methods"
+												}
+											]
+										},
+										{
+											"name":"If Statistical measures of importance are needed, start with:",
+											"children":
+											[
+												{
+													"name":"Generalized linear models"
+												}
+											]
+										},
+										{
+											"name": "If Statistical measures of importance are not needed, start with:",
+											"children":
+											[
+												{
+													"name":"Regression with shrinkage (e.g., LASSO, Elastic net)"
+												},
+												{
+													"name":"Stepwise regression"
+												}
+											]
+										}
+									]
+								}
+							]
+
+						},
+						{
+							"name":"HYPOTHESIS TESTING",
+							"children":
+							[
+								{
+									"name":"How do I test ideas?",
+									"children":
+									[
+										{
+											"name":"If you want to compare two groups",
+											"children":
+											[
+												{
+													"name":"T-test"
+												}
+											]
+										},
+										{
+											"name":"If you want to comapre multiple groups",
+											"children":
+											[
+												{
+													"name":"ANOVA"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+
+			]
+		},
+		{
+			"name":"PREDICT",
+			"children":
+			[
+				{
+					"name":"What are the likely future outcomes?",
+					"children":
+					[
+						{
+							"name":"CLASSIFICATION",
+							"children":
+							[
+								{
+									"name":"How do I predict group membership?",
+									"children":
+									[
+										{
+											"name":"If you have known dependent relationship between variables",
+											"children":
+											[
+												{
+													"name":"Bayesian network"
+												}
+											]
+										},
+										{
+											"name":"If you are unsure of feature importance, start with:",
+											"children":
+											[
+												{
+													"name":"Neural nets"
+												},
+												{
+													"name":"Random forests"
+												},
+												{
+													"name":"Deep learning"
+												}
+											]
+										},
+										{
+											"name":"If you require a highly transparent model, start with:",
+											"children":
+											[
+												{
+													"name":"Decision trees"
+												}
+											]
+										},
+										{
+											"name":"If you have <20 data dimensions, start with:",
+											"children":
+											[
+												{
+													"name":"K-nearest neighbors"
+												}
+											]
+										},
+										{
+											"name":"If you have a large dataset with an unknown classification signal, start with:",
+											"children":
+											[
+												{
+													"name":"Naive bayes"
+												}
+											]
+										},
+										{
+											"name":"If you want to estimate an unobservable state based on observable varibles, start with:",
+											"children":
+											[
+												{
+													"name":"Hidden markov model"
+												}
+											]
+										},
+										{
+											"name":"If you don't know where else to begin, start with:",
+											"children":
+											[
+												{
+													"name":"Support vector machine (SVM)"
+												},
+												{
+													"name":"Random forests"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name":"REGRESSION",
+							"children":
+							[
+								{
+									"name":"How do I predict a future value?",
+									"children":
+									[
+										{
+											"name":"If the data structure is unknown, start with:",
+											"children":
+											[
+												{
+													"name":"Tree-based methods"
+												}
+											]
+										},
+										{
+											"name":"If you require a highly transparent model, start with:",
+											"children":
+											[
+												{
+													"name":"Generalized linear models"
+												}
+											]
+										},
+										{
+											"name":"If you have <20 data dimensions, start with:",
+											"children":
+											[
+												{
+													"name":"K-nearest neighbors"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name":"RECOMMENDATION",
+							"children":
+							[
+								{
+									"name":"How do i predict relevant condition?",
+									"children":
+									[
+										{
+											"name":"If you only have knowledge of how people interact with items, start with:",
+											"children":
+											[
+												{
+													"name":"Collaboration filtering"
+												}
+											]
+										},
+										{
+											"name":"If you have a feature vector of item characteristics, start with:",
+											"children":
+											[
+												{
+													"name":"If you only have knowledge of how items are connected to one another, start with:",
+													"children":
+													[
+														{
+															"name":"Content-based methods"
+														}
+													]
+												},
+												{
+													"name":"If you only have knowledge of how items are connected to one another, start with:",
+													"children":
+													[
+														{
+															"name":"Graph-based methods"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name":"ADVISE",
+			"children":
+			[
+				{
+					"name":"What course of action should I take?",
+					"children":
+					[
+						{
+							"name":"LOGICAL REASONING",
+							"children":
+							[
+								{
+									"name":"How do I sort through different evidence?",
+									"children":
+									[
+										{
+											"name":"If you have expert knowledge to capture",
+											"children":
+											[
+												{
+													"name":"Expert systems"
+												}
+											]
+										},
+										{
+											"name":"If you are looking for basic facts",
+											"children":
+											[
+												{
+													"name":"Logical reasoning"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name":"OPTIMIZATION",
+							"children":
+							[
+								{
+									"name":"How do I identify the best course of action when my objective can be expressed as a utility function?",
+									"children":
+									[
+										{
+											"name":"If your problem is represented by a non-deterministic utility function, start with:",
+											"children":
+											[
+												{
+													"name":"Stochastic search"
+												}
+											]
+										},
+										{
+											"name":"If approximate solutions are acceptable, start with:",
+											"children":
+											[
+												{
+													"name": "Genetic algorithms"
+												},
+												{
+													"name": "Simulated annealing"
+												},
+												{
+													"name":"Gradient search"
+												}
+											]
+										},
+										{
+											"name":"If you problem is represented by a dterminstic utility function, start with:",
+											"children":
+											[
+												{
+													"name":"Linear programming"
+												},
+												{
+													"name":"Integer programming"
+												},
+												{
+													"name":"Non-linear programming"
+												}
+											]
+										},
+										{
+											"name":"If you have limited resources to search with",
+											"children":
+											[
+												{
+													"name":"Active learning"
+												}
+											]
+										},
+										{
+											"name":"If you want to try multiple models",
+											"children":
+											[
+												{
+													"name":"Emsemble learning"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+
+										{
+											"name":"SIMULATION",
+											"children":
+											[
+												{
+													"name":"How do I characterize a system that does not have a closed-form representation?",
+													"children":
+													[
+														{
+															"name":"If you must model discrete entities, start with:",
+															"children":
+															[
+																{
+																	"name":"Discrete event simulation (DES)"
+																}
+															]
+														},
+														{
+															"name":"If there are a discrete set of possible states, start with",
+															"children":
+															[
+																{
+																	"name":"Markov models"
+																}
+															]
+														},
+														{
+															"name":"If there are actions and interactions among autonomous entities, start with:",
+															"children":
+															[
+																{
+																	"name":"Agent-based simualtion"
+																}
+															]
+														},
+														{
+															"name":"If you do not need to model discrete entities, start with:",
+															"children":
+															[
+																{
+																	"name":"Monte Carlo simulation"
+																}
+															]
+														},
+														{
+															"name":"If you are modelling a complex system with feedback mechanisms between actions, start with:",
+															"children":
+															[
+																{
+																	"name":"System dynamics"
+																}
+															]
+														},
+														{
+															"name":"If you require continuous tracking of system behaviour, start with:",
+															"children":
+															[
+																{
+																	"name":"Activity-based simulation"
+																}
+															]
+														},
+														{
+															"name":"If you already have an understanding of what factors govern the system, start with:",
+															"children":
+															[
+																{
+																	"name":"ODES"
+																},
+																{
+																	"name":"PDES"
+																}
+															]
+														},
+														{
+															"name":"If you have imprecise categories",
+															"children":
+															[
+																{
+																	"name":"Fuzzy logic"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+					]
+				}
+				
+			]
+		}
+	]
+}
